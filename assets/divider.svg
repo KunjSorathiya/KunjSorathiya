@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="1000" height="40" role="img" aria-label="">
+<defs><linearGradient id="d" x1="0" x2="1"><stop offset="0" stop-color="#5e9bff" stop-opacity="0"/><stop offset=".5" stop-color="#bfe3ff" stop-opacity=".8"/><stop offset="1" stop-color="#5e9bff" stop-opacity="0"/></linearGradient></defs>
+<line x1="0" x2="1000" y1="20" y2="20" stroke="url(#d)" stroke-width="1.5"/>
+<g><animateTransform attributeName="transform" type="translate" from="-40 0" to="1040 0" dur="7s" repeatCount="indefinite"/>
+  <g transform="translate(0 20)"><path d="M-30 0 L-2 -4 L-2 4 Z" fill="#ffb35c" opacity=".9"><animate attributeName="opacity" values=".9;.4;.9" dur=".25s" repeatCount="indefinite"/></path><path d="M-2 -5 L-2 5 L14 5 L26 0 L14 -5 Z" fill="#eef1f6"/><path d="M-2 -5 L-9 -10 L2 -5 Z M-2 5 L-9 10 L2 5 Z" fill="#5e9bff"/></g>
+</g></svg>
