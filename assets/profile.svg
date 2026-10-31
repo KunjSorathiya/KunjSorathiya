@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330" role="img" aria-label="Prometheus, the rocket I worked on propulsion and aerodynamics for: 3,348 metres, Mach 1.37, 46 g. An illustrative flight profile draws itself.">
+<defs>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5e9bff"/><stop offset=".45" stop-color="#bfe3ff"/><stop offset="1" stop-color="#3fd0c9"/></linearGradient>
+  <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5e9bff" stop-opacity=".25"/><stop offset="1" stop-color="#5e9bff" stop-opacity="0"/></linearGradient>
+</defs>
+<style>
+  .t{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif} .k{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:.14em;fill:#7b8494;font-size:12px}
+  .big{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif;font-weight:800;fill:#eef1f6;font-size:34px} .u{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#a1a9b7;font-size:13px;letter-spacing:.1em}
+  .ping{animation:ping 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center} @keyframes ping{0%{transform:scale(.6);opacity:.9}100%{transform:scale(3.2);opacity:0}}
+  @media (prefers-reduced-motion: reduce){.ping{animation:none;opacity:0}}
+</style>
+<rect width="1000" height="330" rx="14" fill="#050a1a"/>
+<rect x=".5" y=".5" width="999" height="329" rx="14" fill="none" stroke="#eef1f6" stroke-opacity=".12"/>
+<g stroke="#eef1f6" stroke-opacity=".07"><line x1="60" x2="960" y1="70" y2="70"/><line x1="60" x2="960" y1="120" y2="120"/><line x1="60" x2="960" y1="170" y2="170"/><line x1="60" x2="960" y1="220" y2="220"/></g>
+<line x1="60" x2="960" y1="270" y2="270" stroke="#eef1f6" stroke-opacity=".3"/>
+<text x="60" y="32" class="k">PROMETHEUS  ·  ILLUSTRATIVE FLIGHT PROFILE</text>
+<text x="960" y="32" text-anchor="end" class="k">ALTITUDE  vs  TIME</text>
+<!-- boost, coast, apogee, parachute descent (shape only) -->
+<path id="p" d="M60 270 C 110 270, 150 120, 330 78 C 410 62, 440 60, 470 62 C 520 70, 560 120, 640 175 C 700 215, 820 255, 960 268" fill="none" stroke="url(#line)" stroke-width="3.5" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+  <animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;.42;.92;1" dur="11s" repeatCount="indefinite"/>
+</path>
+<path d="M60 270 C 110 270, 150 120, 330 78 C 410 62, 440 60, 470 62 C 520 70, 560 120, 640 175 C 700 215, 820 255, 960 268 L960 270 L60 270 Z" fill="url(#fill)" opacity="0">
+  <animate attributeName="opacity" values="0;0;.9;.9;0" keyTimes="0;.4;.5;.92;1" dur="11s" repeatCount="indefinite"/>
+</path>
+<g>
+  <animateMotion dur="11s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.42;1" calcMode="linear"><mpath href="#p"/></animateMotion>
+  <circle r="6" fill="#eef1f6"/><circle r="12" fill="#bfe3ff" opacity=".25"/>
+</g>
+<g transform="translate(470 62)"><circle r="5" fill="#3fd0c9"/><circle r="5" fill="none" stroke="#3fd0c9" class="ping"/></g>
+<!-- the three numbers, from the flight -->
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.40;.46;.92;1" dur="11s" repeatCount="indefinite"/>
+  <text x="560" y="64" class="big">3,348 m</text><text x="562" y="84" class="u">APOGEE</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.48;.54;.92;1" dur="11s" repeatCount="indefinite"/>
+  <text x="690" y="130" class="big" font-size="28">Mach 1.37</text><text x="692" y="148" class="u">TOP SPEED, SUPERSONIC</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.56;.62;.92;1" dur="11s" repeatCount="indefinite"/>
+  <text x="200" y="152" class="big" font-size="28">46 g</text><text x="202" y="170" class="u">PEAK ACCELERATION</text>
+</g>
+<text x="60" y="296" class="u">built with IIT Kanpur's RaSET  ·  I worked on propulsion and aerodynamics</text>
+<text x="60" y="316" class="u" opacity=".7">the curve's shape is illustrative; the three numbers are Prometheus's</text>
+</svg>
