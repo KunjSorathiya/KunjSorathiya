@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Kunj Sorathiya. Rocketry, physics, engineering. A rocket climbs over the Earth's limb.">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#02030a"/><stop offset=".6" stop-color="#07102a"/><stop offset="1" stop-color="#0d2552"/></linearGradient>
+  <radialGradient id="limb" cx=".5" cy="0" r=".75"><stop offset="0" stop-color="#bfe3ff" stop-opacity=".9"/><stop offset=".08" stop-color="#5e9bff" stop-opacity=".65"/><stop offset=".3" stop-color="#1a3a7a" stop-opacity=".35"/><stop offset="1" stop-color="#02030a" stop-opacity="0"/></radialGradient>
+  <linearGradient id="flame" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff7a2f" stop-opacity="0"/><stop offset=".5" stop-color="#ffb35c"/><stop offset="1" stop-color="#fff3d6"/></linearGradient>
+  <linearGradient id="trail" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#bfe3ff" stop-opacity="0"/><stop offset="1" stop-color="#bfe3ff" stop-opacity=".85"/></linearGradient>
+  <clipPath id="reveal"><rect x="0" y="0" width="0" height="380"><animate attributeName="width" from="0" to="1200" dur="2.2s" begin="0.3s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect></clipPath>
+  <path id="ascent" d="M170 330 C 330 300, 470 250, 610 150 S 930 -10, 1110 -40"/>
+</defs>
+<style>
+  .s{fill:#eef1f6;animation:tw 4s ease-in-out infinite}.a{animation-duration:3.1s}.b{animation-duration:4.6s;animation-delay:-1.7s}.c{animation-duration:5.8s;animation-delay:-3.4s}
+  @keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+  .name{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif;font-weight:800;letter-spacing:.06em}
+  .sub{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif;font-weight:500;letter-spacing:.16em}
+  .flick{animation:fl .12s steps(2,end) infinite}
+  @keyframes fl{50%{transform:scaleX(.7)}}
+  .glow{animation:gl 5s ease-in-out infinite}
+  @keyframes gl{50%{opacity:.7}}
+  @media (prefers-reduced-motion: reduce){.s,.flick,.glow{animation:none}}
+</style>
+<rect width="1200" height="380" fill="url(#sky)"/>
+<circle cx="389" cy="47" r="0.6" class="s a"/>
+<circle cx="149" cy="70" r="1.6" class="s b"/>
+<circle cx="217" cy="181" r="0.8" class="s c"/>
+<circle cx="216" cy="243" r="0.6" class="s a"/>
+<circle cx="47" cy="208" r="1.6" class="s b"/>
+<circle cx="73" cy="219" r="1.6" class="s c"/>
+<circle cx="886" cy="124" r="1.2" class="s a"/>
+<circle cx="211" cy="72" r="0.8" class="s b"/>
+<circle cx="888" cy="142" r="1.6" class="s c"/>
+<circle cx="182" cy="32" r="1" class="s a"/>
+<circle cx="581" cy="27" r="0.6" class="s b"/>
+<circle cx="358" cy="200" r="0.6" class="s c"/>
+<circle cx="888" cy="71" r="1.6" class="s a"/>
+<circle cx="265" cy="71" r="0.8" class="s b"/>
+<circle cx="900" cy="149" r="0.8" class="s c"/>
+<circle cx="558" cy="204" r="1.6" class="s a"/>
+<circle cx="521" cy="272" r="0.8" class="s b"/>
+<circle cx="978" cy="161" r="1.6" class="s c"/>
+<circle cx="391" cy="162" r="1.6" class="s a"/>
+<circle cx="607" cy="160" r="1" class="s b"/>
+<circle cx="146" cy="138" r="0.6" class="s c"/>
+<circle cx="561" cy="233" r="0.6" class="s a"/>
+<circle cx="23" cy="173" r="1.2" class="s b"/>
+<circle cx="935" cy="84" r="0.8" class="s c"/>
+<circle cx="220" cy="279" r="1" class="s a"/>
+<circle cx="746" cy="13" r="0.8" class="s b"/>
+<circle cx="1193" cy="12" r="0.6" class="s c"/>
+<circle cx="258" cy="72" r="0.8" class="s a"/>
+<circle cx="798" cy="119" r="1.6" class="s b"/>
+<circle cx="293" cy="301" r="1" class="s c"/>
+<circle cx="704" cy="123" r="1" class="s a"/>
+<circle cx="341" cy="193" r="0.8" class="s b"/>
+<circle cx="1071" cy="213" r="0.8" class="s c"/>
+<circle cx="957" cy="233" r="1.6" class="s a"/>
+<circle cx="552" cy="263" r="0.6" class="s b"/>
+<circle cx="579" cy="151" r="0.6" class="s c"/>
+<circle cx="21" cy="143" r="1.6" class="s a"/>
+<circle cx="439" cy="18" r="1.6" class="s b"/>
+<circle cx="614" cy="51" r="1" class="s a"/>
+<circle cx="342" cy="120" r="1" class="s b"/>
+<circle cx="529" cy="34" r="1.6" class="s a"/>
+<circle cx="574" cy="216" r="1.6" class="s b"/>
+<circle cx="960" cy="26" r="0.6" class="s a"/>
+<circle cx="789" cy="109" r="1.6" class="s b"/>
+<circle cx="609" cy="175" r="0.6" class="s a"/>
+<circle cx="255" cy="94" r="0.6" class="s b"/>
+<circle cx="685" cy="218" r="0.6" class="s a"/>
+<circle cx="314" cy="56" r="1" class="s b"/>
+<circle cx="4" cy="113" r="1" class="s a"/>
+<circle cx="703" cy="165" r="0.8" class="s b"/>
+<circle cx="319" cy="227" r="0.8" class="s a"/>
+<circle cx="349" cy="161" r="1.2" class="s b"/>
+<ellipse cx="600" cy="900" rx="1050" ry="640" fill="#050b1c"/>
+<ellipse cx="600" cy="900" rx="1050" ry="640" fill="none" stroke="url(#limb)" stroke-width="3" class="glow"/>
+<ellipse cx="600" cy="360" rx="760" ry="70" fill="url(#limb)" class="glow" opacity=".7"/>
+<!-- the climb -->
+<path d="M170 330 C 330 300, 470 250, 610 150 S 930 -10, 1110 -40" fill="none" stroke="url(#trail)" stroke-width="3" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+  <animate attributeName="stroke-dashoffset" values="1;0;0;0" keyTimes="0;.62;.9;1" dur="9s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.62;.82;1" dur="9s" repeatCount="indefinite"/>
+</path>
+<g>
+  <animateMotion dur="9s" repeatCount="indefinite" rotate="auto" keyPoints="0;1;1" keyTimes="0;.62;1" calcMode="linear"><mpath href="#ascent"/></animateMotion>
+  <g class="flick" style="transform-origin:-8px 0"><path d="M-8 0 L-44 -5 L-62 0 L-44 5 Z" fill="url(#flame)"/></g>
+  <path d="M-10 -6 L-10 6 L12 6 L26 0 L12 -6 Z" fill="#eef1f6"/>
+  <path d="M-10 -6 L-18 -12 L-6 -6 Z M-10 6 L-18 12 L-6 6 Z" fill="#5e9bff"/>
+  <rect x="2" y="-6" width="3" height="12" fill="#0d2552"/>
+  <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.6;.64;1" dur="9s" repeatCount="indefinite"/>
+</g>
+<!-- the name -->
+<g clip-path="url(#reveal)">
+  <text x="600" y="168" text-anchor="middle" class="name" font-size="76" fill="#eef1f6">KUNJ SORATHIYA</text>
+</g>
+<g class="sub" font-size="19" text-anchor="middle" fill="#bfe3ff">
+  <text x="600" y="214" opacity="0">ROCKETRY  ·  PHYSICS  ·  ENGINEERING<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.3;.34;1" dur="9s" begin="1.8s" repeatCount="indefinite"/></text>
+  <text x="600" y="214" opacity="0">FOUNDER, INDIAN ROCKETRY ASSOCIATION<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.3;.34;1" dur="9s" begin="4.8s" repeatCount="indefinite"/></text>
+  <text x="600" y="214" opacity="0">I BUILD THINGS TO UNDERSTAND HOW THEY WORK<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.3;.34;1" dur="9s" begin="7.8s" repeatCount="indefinite"/></text>
+</g>
+</svg>
