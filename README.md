@@ -72,6 +72,12 @@ My [portfolio](https://kunjsorathiya.github.io) is a small universe of its own:
 - 🏅 **[Recognition](https://kunjsorathiya.github.io/recognition/)**: awards and certificates, pinned to a wall
 - 🪂 **[A 404 you can play](https://kunjsorathiya.github.io/this-page-does-not-exist)**: bring a capsule down onto the pad
 
+## 🐍 My contribution graph, eaten
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/KunjSorathiya/KunjSorathiya/output/github-snake-dark.svg" alt="A snake eating my GitHub contribution graph" width="100%">
+</div>
+
 <div align="center">
 
 <img src="assets/divider.svg" alt="" width="100%">
